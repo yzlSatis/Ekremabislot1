@@ -1,0 +1,126 @@
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgb(206, 33, 33);
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+
+
+  img.yuvarlak {
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
+    object-fit: cover;
+}
+
+.gif{
+    text-align: center;
+}
+
+.ana-gif{
+    width: auto;
+    height: auto;
+}
+
+.ana-giff{
+    width: 300px;
+    height: 100px;
+}
+
+.ana-gifff{
+    width: 300px;
+    height: 100px;
+}
+
+
+div.background {
+    background-image: "img/bg.jpg";
+}
+
+.reklamsol{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width:145px;
+    height: 950px;
+}
+
+.reklam-sag {
+    top: 0;
+    right: 0;
+    position: fixed;
+    width: 145px;
+    height: 950px;
+}
+
+
+@media screen and (max-width: 700px) {
+    div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 10px;
+        text-align: center;
+        font-size: 0.5rem;
+        color: rgb(206, 33, 33);
+        text-shadow: 0px 1px 1px rgb(0, 0, 0);
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+        
+      }
+    
+      img.yuvarlak {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        text-align: center;
+    }
+    
+    .gif{
+        text-align: center;
+        width: 90;
+        height: 90;
+    }
+    .ana-gifff{
+        width: 300px;
+        height: 90px;
+        
+    }
+    div.background {
+        background-image: "img/bg.jpg";
+    }
+    .reklamsol{
+        top: 0;
+        left: 0;
+        position: fixed;
+        width: 0%;
+        height: 950px;
+    }
+    
+    .reklam-sag {
+        top: 0;
+        right: 0;
+        position: fixed;
+        width: 0%;
+        height: 950px;
+    }
+
+    .ana-gif{
+        width: 290px;
+        height: 90px;
+        
+    }
+
+}
+
+
+
