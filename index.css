@@ -7,20 +7,36 @@ div.sticky {
     font-size: 1.1rem;
     color: rgb(206, 33, 33);
     text-shadow: 0px 1px 1px rgb(0, 0, 0);
-    font-weight: 300;
+    
     font-family: Arial, Helvetica, sans-serif;
     
   }
+  
 
-
+.kayanyazi{
+    color: white;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    font-weight: 300px;
+    background-color: black;
+    opacity: 0.7;
+}
 
   img.yuvarlak {
     border-radius: 50%;
-    height: 175px;
-    width: 175px;
+    height: 250px;
+    width: 250px;
     object-fit: cover;
 }
 
+a:link {
+    
+    text-decoration:none;
+}
 .gif{
     text-align: center;
 }
@@ -28,18 +44,36 @@ div.sticky {
 .ana-gif{
     width: auto;
     height: auto;
+    z-index: -1;
+
+    
 }
 
 .ana-giff{
     width: 300px;
     height: 100px;
+    margin-right:50px ;
 }
 
 .ana-gifff{
-    width: 300px;
-    height: 100px;
+    width: 280px;
+    height: 180px;
+    border-radius: 0.3rem;
+    margin-right: 25px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: -1;
 }
 
+.ana-gifff:hover {
+   width: 300px;
+   height: 200px;
+   transition: 0.5s;
+   text-decoration: none;
+   z-index: -1;
+
+  }
 
 div.background {
     background-image: "img/bg.jpg";
@@ -61,6 +95,8 @@ div.background {
     height: 950px;
 }
 
+
+/* RESPONSİVE */
 
 @media screen and (max-width: 700px) {
     div.sticky {
@@ -91,8 +127,9 @@ div.background {
         height: 90;
     }
     .ana-gifff{
-        width: 300px;
-        height: 90px;
+        width: 150px;
+        height: 130px;
+       
         
     }
     div.background {
@@ -122,5 +159,30 @@ div.background {
 
 }
 
+@media screen and (max-width: 375px) {
+
+    .ana-gifff{
+        width: 140px;
+        height: 130px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+
+    .ana-gifff{
+        width: 135px;
+        height: 125px;
+    }
+}
+
+
+@media screen and (max-width: 280px) {
+
+    .ana-gifff{
+        width: 170px;
+        height: 150px;
+    }
+}
 
 
