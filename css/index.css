@@ -132,6 +132,19 @@ div.background {
        
         
     }
+
+    .ana-gifff:hover {
+        width: 150px;
+        height: 130px;
+        transition: 0s;
+        text-decoration: none;
+        z-index: -1;
+     
+       }
+
+
+
+
     div.background {
         background-image: "img/bg.jpg";
     }
